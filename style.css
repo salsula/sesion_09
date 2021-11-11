@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background: #012;
+    color: #bcd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #67f;
+}
+
+nav {
+    height: 10vh;
+    font-family: "Inconsolata", monospace;
+    background: #012;
+    color: #2ca;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5)
+}
+
+main {
+    margin-top: 10vh;
+}
+
+header {
+    background: #123;
+}
+
+footer {
+    text-align: center;
+    background: #123;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: .4rem;
+    color: #ee0;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ee0;
+}
