@@ -69,6 +69,10 @@ header {
     }
 }
 
+header h1, header p, .texto-cards {
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
 .contenedor-solucion-cards a {
     text-decoration: none;
 }
