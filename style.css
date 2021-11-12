@@ -1,48 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-html, body {
-    min-height: 100%;
-}
+/*WIP*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    font-family: "Source Sans Pro", sans-serif;
-    background: #012;
+    font-family: "Fira Sans", sans-serif;
+    background: #123;
     color: #bcd;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
     color: #67f;
-}
-
-nav {
-    height: 10vh;
-    font-family: "Inconsolata", monospace;
-    background: #012;
-    color: #2ca;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5)
-}
-
-main {
-    margin-top: 10vh;
-}
-
-header {
-    background: #123;
-}
-
-footer {
-    text-align: center;
-    background: #123;
 }
 
 a {
     text-decoration: underline;
     text-underline-offset: .4rem;
     color: #ee0;
-
 }
 
 a:hover {
     text-decoration: none;
-    color: #ee0;
+    color: #f2f2f2;
+}
+
+nav {
+    background: #123;
+}
+
+.logo {
+    text-decoration: none;
+    color: #2ca;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.links a {
+    text-decoration: none;
+    color: #bcd;
+}
+
+.links a:hover {
+    text-decoration: underline 2px solid;
+    text-underline-offset: .4rem;
+    color: #f2f2f2;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(45deg, #67f, #cc67ee, #ffb424, #eeee00);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.contenedor-solucion-cards a {
+    text-decoration: none;
+}
+
+footer {
+    background: #012;
+}
+
+.btn {
+    background: #2ca;
+    color: black;
+    transition: none;
+}
+
+.btn:hover {
+    background: #f2f2f2;
+    color: black;
+}
+
+.contenedor-solucion {
+    background: #012;
+    border: 1px solid rgba(0, 0, 0, .125)
 }

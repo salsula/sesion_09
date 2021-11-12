@@ -9,31 +9,52 @@
     </head>
     <body>
         <main>
-            <nav class="nav fixed-top align-content-center justify-content-center">
-                <span class="fs-4">Internet Starter Pack</span>
-            </nav>
-            <header>
-                <div class="row m-auto">
-                    <div class="col m-auto px-5">
-                        <h1 class="fw-bold display-2 lh-1 mb-5">Navega bajo tus propias reglas</h1>
-                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, quis. Quod earum esse laborum in!</p>
-                    </div>
-                    <div class="col p-0">
-                        <img style="width: 100%" src="https://images.unsplash.com/photo-1626410730192-13fc5041ff15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80">
+            <nav class="navbar py-3">
+                <div class="container">
+                    <a class="logo" href="index.html">Internet Starter Pack</a>
+                    <div class="links">
+                        <a class="pe-3" href="#">Link 1</a>
+                        <a class="pe-3" href="#">Link 2</a>
+                        <a href="#">Link 3</a>
                     </div>
                 </div>
+            </nav>
+            <header class="d-flex align-items-center justify-content-center">
+                <div class="text-center mx-5">
+                    <h1 class="display-1 fw-bold mb-5 text-white">Navega bajo tus propias reglas</h1>
+                    <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam ad laudantium sunt inventore optio?</p>
+                </div>
             </header>
-            <article class="container py-5">
-                <h2 class="fw-bold display-5 mb-5">¿Qué quieres?</h2>
-                <div class="d-grid gap-2">
-                    <button class="btn btn-primary" type="button">Dejar de ver anuncios. &#128548</button>
-                    <button class="btn btn-primary" type="button">Que nadie pueda meterse a mis cuentas de redes sociales. &#128581</button>
-                    <button class="btn btn-primary" type="button">Enviar nudes de forma segura. &#127825</button>
-                    <button class="btn btn-primary" type="button">Borrar lo que Facebook sabe de mí. &#128293</button>
+            <article class="container my-5">
+                <h1>¿Qué buscas?</h1>
+                <!--Cada recuadro debería ser una imagen. Picsum me la ganó.-->
+                <div class="contenedor-solucion-cards row mt-5">
+                    <a class="col-md-6 text-center mb-5" href="page.html">
+                        <div class="card bg-dark" style="min-height: 300px;">
+                            <h3 class="m-auto px-5 text-white">Dejar de ver anuncios. &#128548</h3>
+                        </div>
+                    </a>
+                    <a class="col-md-6 text-center mb-5" href="page.html">
+                        <div class="card bg-dark py-1" style="min-height: 300px;">
+                            <h3 class="m-auto px-5 text-white">Que nadie pueda meterse a mis cuentas de redes sociales. &#128581</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-solucion-cards row mb-5">
+                    <a class="col-md-6 text-center mb-5" href="page.html">
+                        <div class="card bg-dark" style="min-height: 300px;">
+                            <h3 class="m-auto px-5 text-white">Enviar nudes de forma segura. &#127825</h3>
+                        </div>
+                    </a>
+                    <a class="col-md-6 text-center mb-5" href="page.html">
+                        <div class="card bg-dark" style="min-height: 300px;">
+                            <h3 class="m-auto px-5 text-white">Borrar lo que Facebook sabe de mí. &#128293</h3>
+                        </div>
+                    </a>
                 </div>
             </article>
         </main>
-        <footer class="py-5">
+        <footer class="mt-5 py-5 text-center">
             <span>Página hecha por <a href="https://github.com/dsalas1234" target="_blank">Daniel Salas</a></span>
         </footer>
     </body>
